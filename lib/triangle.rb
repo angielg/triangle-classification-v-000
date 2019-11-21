@@ -17,24 +17,6 @@ class Triangle
       elsif @a != @b && @b != @c && @a != @c
         :scalene
       end
-      #elsif @a <= 0 || @b <= 0 || @c <= 0
-      
-    
-    
-      
-          #raise TriangleError
-          #puts error.message
-      
-      elsif @a <= 0
-        raise TriangleError
-        puts error.message
-      elsif @b <= 0
-        raise TriangleError
-        puts error.message
-      elsif @c <= 0
-        raise TriangleError
-        puts error.message
-      end
   end
 
   
@@ -44,6 +26,17 @@ class Triangle
     end
   end
 end
+
+elsif @a <= 0
+        raise TriangleError
+        puts error.message
+      elsif @b <= 0
+        raise TriangleError
+        puts error.message
+      elsif @c <= 0
+        raise TriangleError
+        puts error.message
+      end
 
 
 
