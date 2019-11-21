@@ -10,6 +10,8 @@ class Triangle
       if @a <= 0 || @b <= 0 || @c <= 0
           raise TriangleError
           puts error.message
+      elsif @a + @b <= @c || @b + @c <= @a || @a + @c <= @b
+        
       elsif  @a == @b && @b == @c && @a == @c
         :equilateral
       elsif @a == @b || @b == @c || @a == @c
