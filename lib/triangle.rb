@@ -21,13 +21,13 @@ class Triangle
           #raise TriangleError
           #puts error.message
       
-      elsif a <= 0
+      elsif @a <= 0
         raise TriangleError
         puts error.message
-      elsif b <= 0
+      elsif @b <= 0
         raise TriangleError
         puts error.message
-      elsif c <= 0
+      elsif @c <= 0
         raise TriangleError
         puts error.message
       end
