@@ -16,6 +16,7 @@ class Triangle
         :isosceles
       elsif @a != @b && @b != @c && @a != @c
         :scalene
+      end
       #elsif @a <= 0 || @b <= 0 || @c <= 0
       
     
