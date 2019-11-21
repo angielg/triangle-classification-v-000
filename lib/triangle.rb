@@ -27,16 +27,16 @@ class Triangle
   end
 end
 
-elsif @a <= 0
-        raise TriangleError
-        puts error.message
-      elsif @b <= 0
-        raise TriangleError
-        puts error.message
-      elsif @c <= 0
-        raise TriangleError
-        puts error.message
-      end
+#elsif @a <= 0
+ #       raise TriangleError
+  #      puts error.message
+   #   elsif @b <= 0
+    #    raise TriangleError
+     #   puts error.message
+      #elsif @c <= 0
+       # raise TriangleError
+        #puts error.message
+      #end
 
 
 
