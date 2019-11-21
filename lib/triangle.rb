@@ -11,7 +11,8 @@ class Triangle
           raise TriangleError
           puts error.message
       elsif @a + @b <= @c || @b + @c <= @a || @a + @c <= @b
-        
+        raise TriangleError
+        puts error.message
       elsif  @a == @b && @b == @c && @a == @c
         :equilateral
       elsif @a == @b || @b == @c || @a == @c
