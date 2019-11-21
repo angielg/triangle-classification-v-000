@@ -7,7 +7,8 @@ class Triangle
   end
   
   def kind
-      if 
+      if @a <= 0 || @b <= 0 || @c <= 0
+          
         @a == @b && @b == @c && @a == @c
         :equilateral
       elsif @a == @b || @b == @c || @a == @c
