@@ -22,24 +22,10 @@ class Triangle
       end
   end
 
-  
   class TriangleError < StandardError
     def message
       "This is not a valid triangle!"
     end
   end
 end
-
-#elsif @a <= 0
- #       raise TriangleError
-  #      puts error.message
-   #   elsif @b <= 0
-    #    raise TriangleError
-     #   puts error.message
-      #elsif @c <= 0
-       # raise TriangleError
-        #puts error.message
-      #end
-
-
 
